@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Sample Python code for youtube.playlists.list
-# See instructions for running these code samples locally:
-# https://developers.google.com/explorer-help/guides/code_samples#python
+
 
 import os
 from os import path
