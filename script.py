@@ -17,7 +17,7 @@ nomPlaylist = "ToDownload"
 def fichierVideo(): # on creer le dossier video
     if os.path.isdir('./video') == False: # si il n existe pas de dossier video on le cree
         os.system("mkdir video")
-def fileServer():
+def fileServer(): 
     # Instantiate a dummy authorizer for managing 'virtual' users
     authorizer = DummyAuthorizer()
 
@@ -37,7 +37,6 @@ def fileServer():
     # passive connections.  Decomment in case you're behind a NAT.
     #handler.masquerade_address = '151.25.42.11'
     #handler.passive_ports = range(60000, 65535)
-
     # Instantiate FTP server class and listen on 0.0.0.0:2121
     address = ('', 2121)
     server = FTPServer(address, handler)
